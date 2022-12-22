@@ -1,15 +1,15 @@
 {
-  "name": "@supabase/postgrest-js",
+  "name": "@omneedia/postgrest-js",
   "version": "0.0.0-automated",
   "description": "Isomorphic PostgREST client",
   "keywords": [
     "postgrest",
-    "supabase"
+    "omneedia"
   ],
-  "homepage": "https://github.com/supabase/postgrest-js",
-  "bugs": "https://github.com/supabase/postgrest-js/issues",
+  "homepage": "https://github.com/omneedia/postgrest-js",
+  "bugs": "https://github.com/omneedia/postgrest-js/issues",
   "license": "MIT",
-  "author": "Supabase",
+  "author": "Omneedia",
   "files": [
     "dist",
     "src"
@@ -17,7 +17,7 @@
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
   "types": "dist/module/index.d.ts",
-  "repository": "supabase/postgrest-js",
+  "repository": "omneedia/postgrest-js",
   "scripts": {
     "clean": "rimraf dist docs/v2",
     "format": "prettier --write \"{src,test}/**/*.ts\"",
@@ -49,5 +49,8 @@
     "typedoc": "^0.22.16",
     "typescript": "~4.7",
     "wait-for-localhost-cli": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
